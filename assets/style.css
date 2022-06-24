@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    font-family: Inter, Arial, Helvetica, sans-serif;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    padding: 20px 0;
+    background-color: #fafafa;
+}
+
+.header-default-indent {
+    width: 100%;
+    height: 80px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    width: 1296px;
+    padding: 0 12px;
+    margin: 0 auto;
+}
+
+.nav-brand-logo {
+    flex: 1;
+}
+
+.bland-logo {
+    height: 40px;
+    width: 80px;
+    background-position: center;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+
+.brand-menu {
+    cursor: pointer;
+    user-select: none;
+}
+
+.menu-item {
+    color: #1E2329;
+    text-decoration: none;
+    padding: 0 15px;
+}
+
+.menu-item:hover {
+    color: #C99400;
+}
+
+.content {
+    margin-top: 200px;
+}
+
+.content-text-box-headline {
+    color: #1E2329;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.content-text-box-subline {
+    color: #474D57;
+    font-size: 25px;
+    font-weight: normal;
+}
+
+.content-image-box img {
+    width: 420px;
+    height: 282px;
+    margin-left: 400px;
+}
+
+footer {
+    margin-top: 300px;
+    width: 100%;
+    padding: 5px 0;
+    background-color: #fafafa;
+    color: #474D57;
+    text-align: right;
+    font-weight: 500;
+}
+
+.content-image-box-user img {
+    margin-left: 500px;
+    width: 420px;
+    height: 420px;
+}
+
+.contacts a {
+    font-size: 30px;
+    font-weight: 300;
+    text-decoration: none;
+    color: #a8adb6;
+}
+
+.headline {
+    font-size: 50px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    margin-top: 400px;
+} 
+
+.text-box {
+    font-size: 18px;
+    color: #1E2329;
+    font-weight: 300;
+    background-color: #FCD535;
+    padding: 5px;
+    border-radius: 30px;
+    margin: 30px 20px 200px 20px;
+    display: flex;
+	flex-direction: column;
+}
+
+@media screen and (max-width: 1296px) {
+    .container {
+        width: auto;
+    }
+}
